@@ -56,18 +56,30 @@ strong {
 }
 
 
-.instagram {
+.instagram a {
     background-color: #22d4fd;
     padding: 10px;
     width: 150px;
     border-radius: 6px;
 }
 
-.linkedin {
+.instagram a:hover {
+    background-color: #034a5a;
+    transition: .7s;
+    color: #fff;
+}
+
+.linkedin a {
     background-color: #22d4fd;
     padding: 10px;
     width: 150px;
     border-radius: 6px;
+}
+
+.linkedin a:hover {
+    background-color: #034a5a;
+    transition: .7s;
+    color: #fff;
 }
 
 .btn-links {
