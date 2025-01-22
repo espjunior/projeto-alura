@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Press+Start+2P&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+body {
+    background-color: #000;
+    color: #f6f6f6;
+}
+
+
+strong {
+    color: #22d4fd;
+}
+
+.container-principal {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container-titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 400px;
+}
+
+
+.container-titulo p {
+    color: #f6f6f6;
+}
+
+.container-links {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #22d4fd;
+}
+
+
+.instagram {
+    background-color: #22d4fd;
+    padding: 10px;
+    width: 150px;
+    border-radius: 6px;
+}
+
+.linkedin {
+    background-color: #22d4fd;
+    padding: 10px;
+    width: 150px;
+    border-radius: 6px;
+}
+
+.btn-links {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        
+}
+
+
+img {
+    width: 25%;
+    border: 5px solid #22d4fd;
+    border-radius: 0 0 30px;
+}
+
